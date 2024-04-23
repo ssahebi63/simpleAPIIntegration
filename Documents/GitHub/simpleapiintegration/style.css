@@ -1,0 +1,59 @@
+body {
+    background-color: #929191; 
+    margin: 0; 
+    padding: 0; 
+}
+
+.container {
+    display: flex;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #be1212; 
+    box-shadow: 0 0 10px rgba(101, 97, 97, 0.1); 
+}
+
+#catContainer {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cat {
+    border: 10px solid #615e5e;
+    border-radius: 5px;
+}
+
+#catButton {
+    margin-top: 20px; /* Adjust the margin to position the button below the image */
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+#catButton:hover {
+    background-color: #2980b9;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+#jokeContainer {
+    flex: 1;
+    text-align: center;
+}
+
+
+
+
+
+
